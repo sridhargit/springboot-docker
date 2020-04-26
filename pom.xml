@@ -82,7 +82,7 @@
 				
 				<configuration>
              <repository>sridhardocker2020/devopsdemo</repository>
-                 <tag>${project.version}</tag>
+                 <tag>${project.artifactId}-${project.version}</tag>
              </configuration>
 				<!-- <configuration> -->
 				<!-- <repository>docker.io/kkapelon/docker-maven-comparison</repository> 
