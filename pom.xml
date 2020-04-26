@@ -82,7 +82,7 @@
 				
 				<configuration>
              <repository>sridhardocker2020/devopsdemo</repository>
-                 <tag>${project.artifactId}-${project.version}</tag>
+                 <tag>spring-boot-welcome<!-- ${project.artifactId}-${project.version} --></tag>
              </configuration>
 				<!-- <configuration> -->
 				<!-- <repository>docker.io/kkapelon/docker-maven-comparison</repository> 
