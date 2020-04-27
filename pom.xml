@@ -74,16 +74,16 @@
 						<id>default</id>
 						<phase>install</phase>
 						<goals>
-							<goal>build</goal>
+						<goal>build</goal>
 						<goal>push</goal> 
 						</goals>
 					</execution>
 				</executions>
 				
 				<configuration>
-             <repository>sridhardocker2020/devopsdemo</repository>
-                 <tag>springbootwelcome<!-- ${project.artifactId}-${project.version} --></tag>
-             </configuration>
+	                 <repository>sridhardocker2020/devopsdemo</repository>
+	                 <tag>${project.artifactId}-${project.version}</tag>
+	             </configuration>
 				<!-- <configuration> -->
 				<!-- <repository>docker.io/kkapelon/docker-maven-comparison</repository> 
 					<tag>${project.version}</tag> </configuration> -->
