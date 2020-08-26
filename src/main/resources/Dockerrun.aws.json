@@ -1,7 +1,7 @@
 {
  "AWSEBDockerrunVersion": "1",
  "Image": {
-  "Name": "sridhardocker2020/devopsdemo:springboot-docker-1.0"
+  "Name": "sridhardocker2020/devopsdemo:springboot-docker-0.0.1-SNAPSHOT"
  },
  "Ports": [{
   "ContainerPort": "8085"
