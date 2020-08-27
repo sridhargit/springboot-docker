@@ -19,6 +19,18 @@
 		<java.version>1.8</java.version>
 	</properties>
 
+	<repositories>
+        <!--<repository>-->
+        <!--    <id>aliyun-docker</id>-->
+        <!--    <url>registry.cn-hangzhou.aliyuncs.com</url>-->
+        <!--</repository>        -->
+        <repository>
+            <id>docker.io</id>
+            <url>https://docker.io</url>
+        </repository>
+    </repositories>
+	
+	
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
