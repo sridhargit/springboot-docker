@@ -84,8 +84,7 @@
 				<configuration>
 	                 <repository>sridhardocker2020/devopsdemo</repository>
 	                 <tag>${project.artifactId}-${project.version}</tag>
-					<username>sridhardocker2020</username>
-				<password>Saisree@2411</password>
+					
 			<useMavenSettingsForAuth>true</useMavenSettingsForAuth>
 		
 	             </configuration>
