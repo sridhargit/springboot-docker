@@ -9,7 +9,7 @@ public class WelcomeController {
 	
 	@GetMapping("welcome")
 	public String welcome() {
-		return "Welcome to DevOps - Docker World";
+		return "Deployed docker based spring boot app";
 	}
 	
 }
